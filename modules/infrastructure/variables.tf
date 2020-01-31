@@ -15,3 +15,9 @@ variable "key_pair" {
 
 variable "open_internet" {
 }
+
+variable "asg_start" {
+}
+
+variable "asg_stop" {
+}

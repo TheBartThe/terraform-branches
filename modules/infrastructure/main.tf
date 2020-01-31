@@ -31,5 +31,7 @@ module "asg" {
   ami_id           = var.ami_id
   instance_type    = var.instance_type
   key_pair         = var.key_pair
+  asg_start        = var.asg_start
+  asg_stop         = var.asg_stop
   public_subnet_id = module.subnets.public_subnet_id
 }

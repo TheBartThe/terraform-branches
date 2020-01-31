@@ -15,3 +15,9 @@ variable "instance_type" {
 
 variable "key_pair" {
 }
+
+variable "asg_start" {
+}
+
+variable "asg_stop" {
+}

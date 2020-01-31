@@ -12,6 +12,10 @@ variable "open_internet" {
 }
 variable "instance_type" {
 }
+variable "asg_start" {
+}
+variable "asg_stop" {
+}
 
 provider "aws" {
   version                 = "~> 2.7"
@@ -26,5 +30,7 @@ module "infrastructure" {
   instance_type = var.instance_type
   key_pair      = var.key_pair
   open_internet = var.open_internet
+  asg_start     = var.asg_start
+  asg_stop      = var.asg_stop
 }
 
