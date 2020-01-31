@@ -1,0 +1,6 @@
+*.tfstate*
+*.terraform*
+*stagingplan*
+*developmentplan*
+*productionplan*
+*plan*
